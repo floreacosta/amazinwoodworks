@@ -1,0 +1,86 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+	font-family: Calibri, sans-serif; 
+	color:#4c4c4c;
+}
+
+body{
+	width: 100%;
+}
+
+div.transition{
+	background-color: #fff;
+	border: solid 3px #4c4c4c;
+	width: 20%;
+	height: 3em;
+	padding: 2em;
+	text-align: center;
+	margin: 2em auto;
+	
+	-webkit-transition: width 2s, height 4s; /* Safari */
+    transition: width 2s, height 4s;
+}
+
+div.transition:hover{
+	width: 50%;
+	height: 15em;
+	background: #ccc;
+}
+
+div.transformation{
+	background-color: #fff;
+	border: solid 3px #4c4c4c;
+	width: 30%;
+	height: 3em;
+	padding: 2em;
+	text-align: center;
+	margin: 2em auto;
+	
+	-webkit-transition: width 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, transform 2s;
+	transition-timing-function: ease;
+}
+
+div.transformation:hover{
+	width: 50%;
+	background: #ccc;
+	border-radius: 3em;
+	border: solid #0069ad;
+	
+	-webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+}
+
+@keyframes flor{
+    from{
+		background-color: violet;
+	}
+	
+    to {
+		background-color: yellow;
+	}
+}
+
+div.animation {
+    background-color: #fff;
+	border: solid 3px #4c4c4c;
+	width: 30%;
+	height: 3em;
+	padding: 2em;
+	text-align: center;
+	margin: 2em auto;
+
+	-webkit-transition: width 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, transform 2s;
+}
+
+div.animation:hover{
+	animation-name: flor;
+    animation-duration: 4s;
+
+	-webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);	
+}

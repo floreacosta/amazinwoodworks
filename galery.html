@@ -1,0 +1,118 @@
+<html>
+	<head>
+		<title>Muebles</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/> 
+		<meta name="expires" content="-1"/>
+		<meta name="description" content="Muebles" />
+		<meta name="author" content="Flor Acosta / DG" />
+		<meta name="keywords" content=""/>
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/querys.css">
+		
+		<link rel="stylesheet" type="text/css" href="css/style-menu-mobile.css">
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+	</head>
+	
+	<body>
+		<header id="in">
+			<div class='logo'><a href="index.html"></a></div>
+			<ul id='menu'>
+				<li class='galery'><a href='galery.html'>Galería</a></li>
+				<li class='view'><a href='catalogo/closet.html'>Catálogo</a></li>
+				<li class='contact'><a href='contact.html'>Contacto</a></li>
+			</ul>
+		</header>
+		
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/slider.js"></script>
+	
+		<section id='seccion2'>
+			<a name='galery'>
+			<h1>Algunos de nuestros trabajos</h1>
+				<span><button id="btnAnt"></button><button id="btnSig"></button></span>
+				<div class="slider">
+					<div id="ele1" class="s_element s_visible">
+						<article>
+							<h3>Cocinas</h3>
+							<p>También es texto una <b>composición de caracteres imprimibles (con grafema)</b> generados por un algoritmo de cifrado que, aunque no tienen <i>sentido para cualquier persona.</i></p>
+						</article>
+						
+						<img src="img/slider/1.jpg"/>
+						
+						<article class="before">
+							<h3>Baños</h3>
+							<p>También es texto una composición de caracteres imprimibles (con grafema) generados por un <b>algoritmo de cifrado que, aunque no tienen sentido</b> para cualquier persona.</p>
+						</article>
+					</div>
+
+
+					<div id="ele2" class="s_element">
+						<article>
+							<h3>Título 2</h3>
+							<p>Descripción 2</p>
+						</article>
+						
+						<img src="img/slider/2.jpg"/>
+						
+						<article class="before">
+							<h3>Título 3</h3>
+							<p>Descripción 3</p>
+						</article>			
+					</div>
+
+
+					<div id="ele3" class="s_element">
+						<article>
+							<h3>Título 3</h3>
+							<p>Descripción 3</p>
+						</article>
+
+						<img src="img/slider/3.jpg"/>
+
+						<article class="before">
+							<h3>Título 4</h3>
+							<p>Descripción 4</p>
+						</article>
+					</div>
+
+
+					<div id="ele4" class="s_element">
+						<article>
+							<h3>Título 4</h3>
+							<p>Descripción 4</p>
+						</article>
+
+						<img src="img/slider/4.jpg"/>
+
+						<article class="before">
+							<h3>Título 1</h3>
+							<p>Descripción 1</p>
+						</article>
+					</div>
+				</div>
+			</a>
+		</section>
+		<footer>
+			<div id='piePagina'>
+				<div>Copyright 2015 ©</div>
+				<nav>
+					<ul>
+						<li class='pinterest'><a href='#'> </a></li>
+						<li class='instagram'><a href='#'> </a></li>
+						<li class='facebook'><a href='#'> </a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+	
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#menu').slicknav();
+		});
+	</script>
+	
+	</body>
+</html>

@@ -1,0 +1,83 @@
+<html>
+	<head>
+		<title>Muebles</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/> 
+		<meta name="expires" content="-1"/>
+		<meta name="description" content="Muebles" />
+		<meta name="author" content="Flor Acosta / DG" />
+		<meta name="keywords" content=""/>
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/querys.css">
+		
+		<link rel="stylesheet" type="text/css" href="css/style-menu-mobile.css">
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+	</head>
+	
+	<body>
+		<header id="in">
+			<div class='logo'><a href="index.html"></a></div>
+			<ul id='menu'>
+				<li class='galery'><a href='galery.html'>Galería</a></li>
+				<li class='view'><a href='catalogo/closet.html'>Catálogo</a></li>
+				<li class='contact'><a href='contact.html'>Contacto</a></li>
+			</ul>
+		</header>
+		<section id='seccion3'>
+			<h2 class="mobile">Av. Siempre Viva 1234.<br />Masachusset, Estados Unidos.</h2>
+			<div class="iframe">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d105073.23949906467!2d-58.43329845000001!3d-34.615823750000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1442248274075" width="100%" height="100%"" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<div class='address'>
+				<h2 class="preTitulo"><span>Amazing Wood Works</span>, muebles de madera para interiores.</h2>
+				<h2>Av. Siempre Viva 1234.<br />Masachusset, Estados Unidos.</h2>
+				<h3 class='info'>Código Postal 1688<br />Teléfono +(011) 4450-2142</h3>
+			</div>
+			
+			<div class='contact contact-form'>
+				<a name='contact'><h3>¿Consultas? Escribinos y a la brevedad nos comunicaremos.</h3></a>
+				<form action='#'>
+					<ul class='contact-form'>
+						<li>Nombre y Apellido</li>
+							<input type='text' name='name'/>
+						<li>E-mail </li>
+							<input type='text' name='mail'/>
+						<li>Consulta</li>
+							<textarea name='coment'></textarea>
+					</ul>
+					<input type="submit" value="Enviar">
+				</form>	
+			</div>
+		</section>
+
+		<footer>
+			<div id='piePagina'>
+				<div>Copyright 2015 ©</div>
+				<nav>
+					<ul>
+						<li class='pinterest'><a href='#'> </a></li>
+						<li class='instagram'><a href='#'> </a></li>
+						<li class='facebook'><a href='#'> </a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+	
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery.slides.js"></script>
+	<script>
+		$(function(){
+		  $(".slides").slidesjs({
+		  });
+		});
+	</script>
+	
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#menu').slicknav();
+		});
+	</script>
+	</body>
+</html>
