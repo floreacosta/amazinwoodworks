@@ -50,6 +50,16 @@ section.catalogo>ul.menu>li>a:hover {
 	color: #0069ad;
 }
 
+ul>span{
+    font-family: 'modern_pictogramsnormal';
+    color: #0069ad;
+    font-size: 1.7em;
+    font-weight: normal;
+    margin-right: 0.2em;
+    position: relative;
+    top: 0.13em;
+}
+
 a.active {
     color: #0069ad;
     font-weight: bold;
